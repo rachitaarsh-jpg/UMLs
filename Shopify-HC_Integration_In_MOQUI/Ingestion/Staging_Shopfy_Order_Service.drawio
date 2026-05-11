@@ -1,0 +1,80 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="eL1aPwmtdQaiIarc_M6s">
+    <mxGraphModel dx="1032" dy="1800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="T_htL2yzwvPTWVjXS2Wz-1" parent="1" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="399" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="T_htL2yzwvPTWVjXS2Wz-2" edge="1" parent="1" source="T_htL2yzwvPTWVjXS2Wz-1" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="T_htL2yzwvPTWVjXS2Wz-3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_htL2yzwvPTWVjXS2Wz-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Inside Staging Orde Service" vertex="1">
+          <mxGeometry height="50" width="176" x="326" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="T_htL2yzwvPTWVjXS2Wz-4" edge="1" parent="1" source="T_htL2yzwvPTWVjXS2Wz-3" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="T_htL2yzwvPTWVjXS2Wz-5" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_htL2yzwvPTWVjXS2Wz-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Load full remote Configuration for the Shop" vertex="1">
+          <mxGeometry height="60" width="126" x="351" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="T_htL2yzwvPTWVjXS2Wz-6" edge="1" parent="1" source="T_htL2yzwvPTWVjXS2Wz-5" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="T_htL2yzwvPTWVjXS2Wz-7" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_htL2yzwvPTWVjXS2Wz-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Find the shop ID using&lt;br&gt;systemMessageRemote.internalId" vertex="1">
+          <mxGeometry height="40" width="206" x="311" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="T_htL2yzwvPTWVjXS2Wz-8" edge="1" parent="1" source="T_htL2yzwvPTWVjXS2Wz-7" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="T_htL2yzwvPTWVjXS2Wz-9" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_htL2yzwvPTWVjXS2Wz-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Create a raw storage layer i.e MDM raw folder (File is created locally first and uploaded to MDM later)" vertex="1">
+          <mxGeometry height="50" width="226" x="301" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="T_htL2yzwvPTWVjXS2Wz-10" edge="1" parent="1" source="T_htL2yzwvPTWVjXS2Wz-9" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="T_htL2yzwvPTWVjXS2Wz-11" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_htL2yzwvPTWVjXS2Wz-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Loop through Order i.e orderIds for this shop" vertex="1">
+          <mxGeometry height="40" width="136" x="346" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="T_htL2yzwvPTWVjXS2Wz-12" edge="1" parent="1" source="T_htL2yzwvPTWVjXS2Wz-11" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="T_htL2yzwvPTWVjXS2Wz-13" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_htL2yzwvPTWVjXS2Wz-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Get all order details using OrderUnifiedMegaQuery by syncing with get#ShopifyOrderDetails" vertex="1">
+          <mxGeometry height="65" width="210" x="309" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="T_htL2yzwvPTWVjXS2Wz-14" edge="1" parent="1" source="T_htL2yzwvPTWVjXS2Wz-13" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="T_htL2yzwvPTWVjXS2Wz-16" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_htL2yzwvPTWVjXS2Wz-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Aggregate all order&#39;s JSON object to a list" vertex="1">
+          <mxGeometry height="40" width="120" x="354" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="T_htL2yzwvPTWVjXS2Wz-17" edge="1" parent="1" source="T_htL2yzwvPTWVjXS2Wz-16" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="T_htL2yzwvPTWVjXS2Wz-18" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_htL2yzwvPTWVjXS2Wz-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Write to a file and upload to MDM" vertex="1">
+          <mxGeometry height="50" width="126" x="351" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="T_htL2yzwvPTWVjXS2Wz-38" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;u&gt;Ingetsion Process in Shopify-HC intergartion Moqui Code:&lt;/u&gt;&lt;br&gt;&lt;i&gt;Staging Shopfy Order Service&lt;/i&gt;&lt;/h1&gt;&lt;div&gt;&lt;i&gt;&lt;br&gt;&lt;/i&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="490" x="100" y="-30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
