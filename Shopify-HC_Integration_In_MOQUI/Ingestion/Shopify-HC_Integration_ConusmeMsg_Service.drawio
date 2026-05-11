@@ -1,0 +1,145 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="eL1aPwmtdQaiIarc_M6s">
+    <mxGraphModel dx="1032" dy="1800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="T_htL2yzwvPTWVjXS2Wz-1" parent="1" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="399" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="T_htL2yzwvPTWVjXS2Wz-2" edge="1" parent="1" source="T_htL2yzwvPTWVjXS2Wz-1" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="T_htL2yzwvPTWVjXS2Wz-3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_htL2yzwvPTWVjXS2Wz-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="We Go To&amp;nbsp;&lt;div&gt;consume#SqsOrderMessages Service&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="180" x="324" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="T_htL2yzwvPTWVjXS2Wz-4" edge="1" parent="1" source="T_htL2yzwvPTWVjXS2Wz-3" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="T_htL2yzwvPTWVjXS2Wz-5" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_htL2yzwvPTWVjXS2Wz-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Initialise Connection with SMR_Id" vertex="1">
+          <mxGeometry height="40" width="120" x="354" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="T_htL2yzwvPTWVjXS2Wz-6" edge="1" parent="1" source="T_htL2yzwvPTWVjXS2Wz-5" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="T_htL2yzwvPTWVjXS2Wz-7" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_htL2yzwvPTWVjXS2Wz-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Poll SQS for messages (limit = 10)" vertex="1">
+          <mxGeometry height="40" width="120" x="354" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="T_htL2yzwvPTWVjXS2Wz-8" edge="1" parent="1" source="T_htL2yzwvPTWVjXS2Wz-7" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="T_htL2yzwvPTWVjXS2Wz-9" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_htL2yzwvPTWVjXS2Wz-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Loop on Message till queue is Empty" vertex="1">
+          <mxGeometry height="40" width="120" x="354" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="T_htL2yzwvPTWVjXS2Wz-10" edge="1" parent="1" source="T_htL2yzwvPTWVjXS2Wz-9" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="T_htL2yzwvPTWVjXS2Wz-11" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_htL2yzwvPTWVjXS2Wz-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Prepare an empty Map For Shop Groupings Later" vertex="1">
+          <mxGeometry height="40" width="120" x="354" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="T_htL2yzwvPTWVjXS2Wz-12" edge="1" parent="1" source="T_htL2yzwvPTWVjXS2Wz-11" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="T_htL2yzwvPTWVjXS2Wz-13" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_htL2yzwvPTWVjXS2Wz-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Process Each Message Polled From SQS in a loop" vertex="1">
+          <mxGeometry height="45" width="126" x="351" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="T_htL2yzwvPTWVjXS2Wz-14" edge="1" parent="1" source="T_htL2yzwvPTWVjXS2Wz-13" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="T_htL2yzwvPTWVjXS2Wz-16" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_htL2yzwvPTWVjXS2Wz-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Parse the SQS Message into JSON" vertex="1">
+          <mxGeometry height="40" width="120" x="354" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="T_htL2yzwvPTWVjXS2Wz-17" edge="1" parent="1" source="T_htL2yzwvPTWVjXS2Wz-16" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="T_htL2yzwvPTWVjXS2Wz-18" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_htL2yzwvPTWVjXS2Wz-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Extract X-Shopify-Shop-Domain From META DATA" vertex="1">
+          <mxGeometry height="50" width="126" x="351" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="T_htL2yzwvPTWVjXS2Wz-19" edge="1" parent="1" source="T_htL2yzwvPTWVjXS2Wz-18" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="T_htL2yzwvPTWVjXS2Wz-25" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_htL2yzwvPTWVjXS2Wz-25" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Does it matches with sendUrl shopDomain ?" vertex="1">
+          <mxGeometry height="160" width="110" x="359" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="T_htL2yzwvPTWVjXS2Wz-26" edge="1" parent="1" source="T_htL2yzwvPTWVjXS2Wz-25" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="T_htL2yzwvPTWVjXS2Wz-28" value="no">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <mxPoint x="550" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_htL2yzwvPTWVjXS2Wz-27" edge="1" parent="1" source="T_htL2yzwvPTWVjXS2Wz-25" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="T_htL2yzwvPTWVjXS2Wz-32" value="yes">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <mxPoint x="414" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_htL2yzwvPTWVjXS2Wz-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Log Error And Return" vertex="1">
+          <mxGeometry height="40" width="120" x="520" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="T_htL2yzwvPTWVjXS2Wz-32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Store that Smr_Id" vertex="1">
+          <mxGeometry height="40" width="120" x="354" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="T_htL2yzwvPTWVjXS2Wz-33" edge="1" parent="1" source="T_htL2yzwvPTWVjXS2Wz-32" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="T_htL2yzwvPTWVjXS2Wz-34" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_htL2yzwvPTWVjXS2Wz-34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Extract Order Ids and Group them by Shops" vertex="1">
+          <mxGeometry height="40" width="130" x="349" y="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="T_htL2yzwvPTWVjXS2Wz-35" edge="1" parent="1" source="T_htL2yzwvPTWVjXS2Wz-34" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="T_htL2yzwvPTWVjXS2Wz-36" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="1170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_htL2yzwvPTWVjXS2Wz-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Call stage#ShopifyOrder&lt;br&gt;Service" vertex="1">
+          <mxGeometry height="50" width="126" x="351" y="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="T_htL2yzwvPTWVjXS2Wz-38" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;u&gt;Ingetsion Process in Shopify-HC intergartion Moqui Code:&lt;/u&gt;&lt;br&gt;&lt;i&gt;Consume SQS Message Service&lt;/i&gt;&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="100" width="490" x="80" y="-20" as="geometry" />
+        </mxCell>
+        <mxCell id="T_htL2yzwvPTWVjXS2Wz-42" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="If Successfull?" vertex="1">
+          <mxGeometry height="80" width="110" x="359" y="1240" as="geometry" />
+        </mxCell>
+        <mxCell id="T_htL2yzwvPTWVjXS2Wz-43" edge="1" parent="1" source="T_htL2yzwvPTWVjXS2Wz-42" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" target="T_htL2yzwvPTWVjXS2Wz-48" value="no">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <mxPoint x="560" y="1300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_htL2yzwvPTWVjXS2Wz-44" edge="1" parent="1" source="T_htL2yzwvPTWVjXS2Wz-42" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="T_htL2yzwvPTWVjXS2Wz-46" value="yes">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <mxPoint x="420" y="1360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_htL2yzwvPTWVjXS2Wz-46" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Delete that SQS Message from List" vertex="1">
+          <mxGeometry height="40" width="120" x="354" y="1380" as="geometry" />
+        </mxCell>
+        <mxCell id="T_htL2yzwvPTWVjXS2Wz-48" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Retry Mechanism" vertex="1">
+          <mxGeometry height="40" width="120" x="560" y="1260" as="geometry" />
+        </mxCell>
+        <mxCell id="T_htL2yzwvPTWVjXS2Wz-50" edge="1" parent="1" source="T_htL2yzwvPTWVjXS2Wz-36" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="T_htL2yzwvPTWVjXS2Wz-42" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="1250" as="sourcePoint" />
+            <mxPoint x="290" y="1290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
